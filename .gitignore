@@ -1,0 +1,106 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/*.log
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+.nyc_output
+
+# Cache directories
+.cache/
+.parcel-cache/
+.tmp/
+temp/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# PHP specific
+composer.lock
+/vendor/
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Screenshots and media files (keeping some for documentation)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+!docs/*.png
+!assets/images/*.png
+
+# Temporary files
+*.tmp
+*.temp
+
+# Config files with sensitive data
+config/database.php
+config/secrets.php
+
+# User uploaded files
+uploads/
+user_data/
+
+# Build outputs
+dist/
+build/
+
+# Test files
+tests/temp/
+phpunit.xml
+
+# Package managers
+package-lock.json
+yarn.lock
+
+# Large data files
+*.csv
+*.xlsx
+*.json
+!package.json
+!composer.json
+
+# Development files
+.env.example
+development.md
